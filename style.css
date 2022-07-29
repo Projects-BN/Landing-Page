@@ -46,7 +46,7 @@ ul {
 }
 
 .text {
-    
+
 }
 
 .website {
@@ -98,5 +98,14 @@ ul {
 .footer {
     display: flex;
     justify-content: space-around;
+}
 
+.section5 {
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
+
+.section5 {
+    display:flex;
+    justify-content: center;
 }
