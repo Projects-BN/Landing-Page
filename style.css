@@ -1,8 +1,9 @@
+
+
 .header {
-    display: flex;
-    justify-content: space-between;
+    display: flex;;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
 }
 
@@ -21,7 +22,35 @@ ul {
     color: #F9FAF8
 }
 
-.right-links {
+.right-links, .awesome, .image {
     font-size: 18px; 
     color: #E5E7EB;
+}
+
+.image {
+    background-color: grey;
+    width:400px;
+    height:300px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.website {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    padding: 50px;
+}
+
+.awesome {
+    padding: 50px;
+}
+
+.second {
+    display:flex;
 }
